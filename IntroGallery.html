@@ -3,7 +3,7 @@
     </div>
 </script>
 <script id="introgallerytemplate_large" type="text/x-jquery-tmpl">
-		<div id="navbar-main">
+		<div id="navbar-main" class="bootstrap">
 			<div class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 					<div class="navbar-header">
@@ -19,7 +19,7 @@
 					<div class="navbar-collapse collapse">
 					  <form class="navbar-form navbar-left" role="search">
 					    <div class="form-group">
-					      <input type="text"  id="txtfromigal" class="form-control" placeholder="Where do you want to send?">
+					      <input type="text"  id="txttoigal" class="form-control" placeholder="Where do you want to send?">
 					    </div>
 					  </form>
 			          <ul class="nav navbar-nav navbar-right">
@@ -34,7 +34,7 @@
 
 		<!-- =============== HeaderWrap ======== -->
 		
-		<div id="headerwrap">
+		<div id="headerwrap" class="bootstrap">
 			<div class="container">
 				<div class="col-lg-12">
 					<h1>Send stuff quickly, together.</h1>
@@ -69,45 +69,79 @@
 
 
 		<!-- how it works -->
-
-		<div class="explain-how">
+		<div class="bootstrap explain-how">
 			<div class="container features">
-				<h3>How It Works</h3>
+				<h3>How to Send Something</h3>
 				
 				<div class="row">
 				
 					<div class="col-lg-4">
-						<img src="/content/images/lpcarry.png">
+						<img src="/content/images/lpconnect.png">
 						<h4>1.Connect with friends</h4>
-						<p>Find friends who plan on going somewhere. Request them to carry your goods. Wondering about safety and security?</p>
-                        <p><a href='http://manyship.wordpress.com/2013/11/17/trust-and-safety-at-manyship/' target='_blank'>Learn how ManyShip is safe and secure >></a></p>
+						<p>We will help you find your friends who plan on going somewhere and place a request to carry your goods. <em><b>We take your safety and your things' safety seriously.</em></b></p>
+                        <p><a href='http://manyship.wordpress.com/2013/11/17/trust-and-safety-at-manyship/' target='_blank'>Learn more about safety >></a></p>
 					</div>
 
 					<div class="col-lg-4">
 						<img src="/content/images/lpship.png">
-						<h4>2.Send things with them</h4>
-						<p>Meet your friend at a convenient place and handover your stuff. Your friend carries the stuff and delivers them (or your party picks them up) at the destination.</p>
+						<h4>2.Give them your stuff</h4>
+						<p>If you are ordering something online, you may mail them directly to your friend. In other cases, you may meet your friend at your favorite place - a coffee shop, public library, etc - and hand off your stuff.</p>
 					</div>
 	
 					<div class="col-lg-4">
-						<img src="/content/images/lpbenefit.png">
-						<h4>3.Reward them</h4>
-						<p>Reward your friend for the quick, cost-effective, personal, and a green transportation and delivery of your stuff.</p>
-                        <p><a href='http://manyship.wordpress.com/2013/10/17/everything-you-wish-to-know-about-manyship-the-infographic/' target='_blank'>Learn how other members are benefitting >></a></p>
+						<img src="/content/images/lpreceive.png">
+						<h4>3.Receive at destination</h4>
+						<p>Your friend carries your things to the destination and may deliver them at the destination (an extra fee may apply). You may also arrange for a pick up at the destination.</p>
+                        <p><a href='http://manyship.wordpress.com/2013/10/17/everything-you-wish-to-know-about-manyship-the-infographic/' target='_blank'>Learn how members benefit >></a></p>
 					</div>
-
 				</div>
+
+                <h4><a href="post-trip" id="btnehsavemo">SEND SOMETHING</a></h4>
+
 			</div>
 		</div><!-- end of how it works -->
 
 
-		<!-- NewsLetter -->
+		<!-- how it works - carry something-->
+		<div id="hiwcarrywrap" class="bootstrap explain-how">
+			<div class="container features">
+				<h3>How to Carry Something</h3>
+				
+				<div class="row">
+				
+					<div class="col-lg-4">
+						<img src="/content/images/lpposttrip.png">
+						<h4>1.Post your trip</h4>
+						<p>Tell us when and where you are going and we will connect you with your friends who may have stuff to send. <em><b>Your safety is our top priority</b></em>! We connect you with people within your trust networks.</p>
+                        <p><a href='http://manyship.wordpress.com/2013/05/26/travel-networks-what-the-heck-are-they/' target='_blank'>Learn more about safety >></a></p>
+					</div>
+
+					<div class="col-lg-4">
+						<img src="/content/images/lpcarry.png">
+						<h4>2.Accept and carry</h4>
+						<p>After posting a trip, you will receive requests from senders to carry their things. You accept one or more requests and arrange for getting the stuff in to your possession.</p>
+					</div>
+	
+					<div class="col-lg-4">
+						<img src="/content/images/lpbenefit.png">
+						<h4>3.Deliver and get rewarded</h4>
+						<p>You carry the package and delivery at the destination. You may let the sender's party pick up the package from a prespecified location. You get rewarded after the delivery is complete.</p>
+                        <p><a href='http://manyship.wordpress.com/2013/10/22/manyship-enables-find-travel-companions-parents-child/' target='_blank'>Learn how you may benefit others >></a></p>
+					</div>
+
+				</div>
+
+                <h4><a href="post-trip" id="btnehearnmo">CARRY SOMETHING</a></h4>
+			</div>
+		</div><!-- end of how it works carry something -->
+
+		<!-- NewsLetter 
 			
-			<div id="newsletterwrap">
+			<div id="newsletterwrap" class="bootstrap">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-8 col-lg-offset-2">
-							<h1>Register for our weekly newsletter to stay updated for promotions and offers.</h1>
+							<h1>Sign up for our weekly newsletter and stay upto date on promotions and offers.</h1>
 							<br>
 						</div>
 					</div>
@@ -117,7 +151,7 @@
 							<form action="" role="form" class="form-horizontal">
 								<div class="form-group">
 									<div class="col-lg-8">
-										<input type="email" class="form-control letter-form" id="inputEmail1" placeholder="yahoo@email.com">
+										<input type="email" class="form-control letter-form" id="inputEmail1" placeholder="My email address is:">
 									</div>
 								</div>
 
@@ -131,6 +165,6 @@
 						</div> 
 					</div>
 				</div>
-			</div><!-- end of news letter wrap -->
+			</div> end of news letter wrap -->
 
 </script>
